@@ -19,6 +19,7 @@ API Info
 
 For example :
 
+```
 curl -X POST \
   localhost:8090/user/register?name=Arshit&contact=123
 Sample Output 200
@@ -30,6 +31,9 @@ Sample Output 200
     "ttalDue": 0
 }
 
+```
+
+```
 curl -X GET \
 localhost:8090/user/3
 
@@ -40,6 +44,10 @@ localhost:8090/user/3
     "depositedAmount": 100,
     "ttalDue": 0
 }
+
+```
+
+```
 curl -X PUT \
 localhost:8090/rent/item/1?uid=0
 
@@ -50,4 +58,7 @@ localhost:8090/rent/item/1?uid=0
     "dueForItem": 0,
     "dueDate": "2021-07-08T09:05:44.490+0000"
 }
+
+
+```
 
